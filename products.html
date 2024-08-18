@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>නිෂ්පාදන</title>
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.1/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar bg-gradient-to-r from-green-500 to-green-700 shadow-lg py-4">
+            <div class="container mx-auto flex items-center justify-between px-6">
+                <a href="#" class="logo text-3xl font-extrabold text-white hover:text-gray-200">EC AGRO</a>
+                <ul class="nav-links hidden md:flex space-x-8 text-white">
+                    <li><a href="index.html#home" class="hover:text-gray-200">Home</a></li>
+                    <li><a href="index.html#about" class="hover:text-gray-200">About</a></li>
+                    <li><a href="index.html#services" class="hover:text-gray-200">Services</a></li>
+                    <li><a href="products.html" class="hover:text-gray-200">Products</a></li>
+                    <li><a href="index.html#policy" class="hover:text-gray-200">Policy</a></li>
+                    <li><a href="index.html#team" class="hover:text-gray-200">Team</a></li>
+                    <li><a href="index.html#contact" class="hover:text-gray-200">Contact</a></li>
+                </ul>
+                <div class="hamburger md:hidden" onclick="toggleMenu()">
+                    <div class="bar bar1"></div>
+                    <div class="bar bar2"></div>
+                    <div class="bar bar3"></div>
+                    <div class="bar bar4"></div>
+                    <div class="bar bar5"></div>
+                    <div class="bar bar6"></div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Products Section -->
+    <section id="products" class="bg-green-50 py-16">
+        <div class="container mx-auto px-6 lg:px-12">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl md:text-5xl font-bold text-green-900 mb-4">අපගේ නිෂ්පාදන</h2>
+                <p class="text-gray-700 text-lg md:text-xl mx-auto max-w-4xl">
+                    අපගේ වගා ව්‍යාපාරය සඳහා ඔබට අවශ්‍ය සියළුම නිෂ්පාදන, අත්‍යවශ්‍ය සහ ප්‍රායෝගික උපකරණ, පහසුවෙන් ලබා ගත හැක. අපගේ විශේෂිත කෘෂිකර්ම නිෂ්පාදන පිළිබඳ තොරතුරු පහත සදහන් වේ.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Product 1 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden transition-transform transform hover:scale-105">
+                    <img src="https://example.com/product1.jpg" alt="පෝෂණ හාල්" class="w-full h-48 object-cover object-center">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-semibold text-green-800 mb-4">පෝෂණ හාල්</h3>
+                        <p class="text-gray-600 mb-4">
+                            මෙම පෝෂණ හාල් ශාක වර්ධනය සඳහා විශේෂිත ආහාර ද්‍රව්‍ය වලින් සම්පූර්ණය. එය ඔබගේ පෂ්ටි ශාකවල වර්ධනය සහිතව ලබා දෙයි.
+                        </p>
+                        <div class="flex items-center justify-between">
+                            <span class="text-xl font-bold text-green-700">රු. 1500</span>
+                            <a href="#" class="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition duration-300">විකිණීම</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden transition-transform transform hover:scale-105">
+                    <img src="https://example.com/product2.jpg" alt="ජල ප්‍රණාල" class="w-full h-48 object-cover object-center">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-semibold text-green-800 mb-4">ජල ප්‍රණාල</h3>
+                        <p class="text-gray-600 mb-4">
+                            ශාක වගා සඳහා වඩාත් සුදුසු ජල ප්‍රණාල, නිවැරදි ජලය පිරිනැමීමේ සහ සුදුසු වර්ධනය සඳහා.
+                        </p>
+                        <div class="flex items-center justify-between">
+                            <span class="text-xl font-bold text-green-700">රු. 2500</span>
+                            <a href="#" class="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition duration-300">විකිණීම</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden transition-transform transform hover:scale-105">
+                    <img src="https://example.com/product3.jpg" alt="පළතුරු තාක්ෂණ" class="w-full h-48 object-cover object-center">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-semibold text-green-800 mb-4">පළතුරු තාක්ෂණ</h3>
+                        <p class="text-gray-600 mb-4">
+                            නවීන පළතුරු තාක්ෂණ, ශාක වර්ධනය සහ ආරක්ෂාව සඳහා. කෘෂිකර්ම ව්‍යාපාරයේ සාර්ථකත්වයට අමතර අංග.
+                        </p>
+                        <div class="flex items-center justify-between">
+                            <span class="text-xl font-bold text-green-700">රු. 3000</span>
+                            <a href="#" class="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition duration-300">විකිණීම</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden transition-transform transform hover:scale-105">
+                    <img src="https://example.com/product4.jpg" alt="දෘඩාංග ආරක්ෂක" class="w-full h-48 object-cover object-center">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-semibold text-green-800 mb-4">දෘඩාංග ආරක්ෂක</h3>
+                        <p class="text-gray-600 mb-4">
+                            ශාක ආරක්ෂාව සඳහා අතිරේක ආරක්ෂක උපකරණ. ක්ෂේමය සහ ආරක්ෂාව සඳහා.
+                        </p>
+                        <div class="flex items-center justify-between">
+                            <span class="text-xl font-bold text-green-700">රු. 2000</span>
+                            <a href="#" class="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition duration-300">විකිණීම</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden transition-transform transform hover:scale-105">
+                    <img src="https://example.com/product5.jpg" alt="සැපයුම් කට්ටල" class="w-full h-48 object-cover object-center">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-semibold text-green-800 mb-4">සැපයුම් කට්ටල</h3>
+                        <p class="text-gray-600 mb-4">
+                            කෘෂිකර්ම අවශ්‍යතා සපයන සැපයුම් කට්ටල. විශේෂිත කටයුතු සඳහා අවශ්‍ය උපකරණ සහ ද්‍රව්‍ය.
+                        </p>
+                        <div class="flex items-center justify-between">
+                            <span class="text-xl font-bold text-green-700">රු. 1800</span>
+                            <a href="#" class="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition duration-300">විකිණීම</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden transition-transform transform hover:scale-105">
+                    <img src="https://example.com/product6.jpg" alt="පිටුපස ආලෝකය" class="w-full h-48 object-cover object-center">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-semibold text-green-800 mb-4">පිටුපස ආලෝකය</h3>
+                        <p class="text-gray-600 mb-4">
+                            වගා සඳහා සුදුසු පිටුපස ආලෝකය, ශාක වර්ධනයට සහ පසුව වෘක්ෂ වර්ධනයට.
+                        </p>
+                        <div class="flex items-center justify-between">
+                            <span class="text-xl font-bold text-green-700">රු. 2200</span>
+                            <a href="#" class="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition duration-300">විකිණීම</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,92 @@
+.loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    overflow: hidden;
+}
+
+/* Leaf container with a 3D effect and smooth rotation */
+.loading-overlay .leaf {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    perspective: 1000px;
+    animation: rotate 2s linear infinite;
+}
+
+/* Leaf image styling with a subtle glow */
+.loading-overlay .leaf-img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform-style: preserve-3d;
+    animation: tilt 2s ease-in-out infinite;
+}
+
+.loading-overlay .leaf-img img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 0 0 30px rgba(0, 255, 0, 0.7);
+    filter: brightness(1.2);
+}
+
+/* 3D tilt animation */
+@keyframes tilt {
+    0%, 100% {
+        transform: rotateX(0deg) rotateY(0deg);
+    }
+    50% {
+        transform: rotateX(15deg) rotateY(15deg);
+    }
+}
+
+/* Continuous rotation animation */
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Glowing effect with a soft gradient */
+.loading-overlay .leaf::before {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(0, 255, 0, 0.5) 0%, rgba(0, 255, 0, 0) 70%);
+    box-shadow: 0 0 40px rgba(0, 255, 0, 0.8);
+    animation: pulse 2s ease-in-out infinite;
+    z-index: -1;
+}
+
+/* Pulse animation for the glowing effect */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 0.6;
+    }
+    50% {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 0.6;
+    }
+}

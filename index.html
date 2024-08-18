@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXCELLENT COMMERCIAL AGRO Company OFFICIAL</title>
+    <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/services.css">
+    <link rel="stylesheet" href="assets/css/loading.css">
+    <link rel="stylesheet" href="assets/css/aichat.css">
+    <link rel="stylesheet" href="assets/css/team.css">
+    <link rel="stylesheet" href="assets/css/tailwindcss.css" type="css/tailwind">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.0.0/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.1/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style type="css/tailwindcss">
+            @layer components {
+            
+                .card {
+                  @apply flex items-center justify-center flex-col gap-2 p-5 w-full sm:w-72 h-full bg-gray-100 border rounded-2xl
+                }
+            
+              }
+            </style>
+</head>
+<div id="loading-overlay" class="loading-overlay">
+    <div class="leaf">
+        <div class="leaf-img">
+            <img src="assets/img/loading2.png" alt="Loading...">
+        </div>
+    </div>
+</div>
+<body>
+    <header>
+    <nav class="navbar bg-gradient-to-r from-green-500 to-green-700 shadow-lg py-4 relative">
+        <div class="container mx-auto flex items-center justify-between px-6">
+            <a href="#" class="logo text-3xl font-extrabold text-white hover:text-gray-200 transition-colors">EC AGRO</a>
+            <ul class="nav-links hidden md:flex space-x-8 text-white">
+                <li><a href="#home" class="hover:text-gray-200 transition-colors">Home</a></li>
+                <li><a href="#about" class="hover:text-gray-200 transition-colors">About</a></li>
+                <li><a href="#services" class="hover:text-gray-200 transition-colors">Services</a></li>
+                <li><a href="products.html" class="hover:text-gray-200 transition-colors">Products</a></li>
+                <li><a href="#policy" class="hover:text-gray-200 transition-colors">Policy</a></li>
+                <li><a href="#team" class="hover:text-gray-200 transition-colors">Team</a></li>
+                <li><a href="#contact" class="hover:text-gray-200 transition-colors">Contact</a></li>
+            </ul>
+            <div class="hamburger md:hidden flex flex-col items-center cursor-pointer" onclick="toggleMenu()">
+                <div class="bar w-6 h-0.5 bg-white mb-1.5 rounded-md transition-transform duration-300 ease-in-out"></div>
+                <div class="bar w-6 h-0.5 bg-white mb-1.5 rounded-md transition-transform duration-300 ease-in-out"></div>
+                <div class="bar w-6 h-0.5 bg-white rounded-md transition-transform duration-300 ease-in-out"></div>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="fixed inset-0 bg-gray-800 bg-opacity-90 z-50 transform translate-x-full transition-transform duration-300 ease-in-out md:hidden">
+            <div class="flex justify-end p-4">
+                <button onclick="toggleMenu()" class="text-white text-3xl">&times;</button>
+            </div>
+            <ul class="flex flex-col items-center space-y-6 mt-16 text-white">
+                <li><a href="#home" class="hover:text-gray-200 transition-colors">Home</a></li>
+                <li><a href="#about" class="hover:text-gray-200 transition-colors">About</a></li>
+                <li><a href="#services" class="hover:text-gray-200 transition-colors">Services</a></li>
+                <li><a href="products.html" class="hover:text-gray-200 transition-colors">Products</a></li>
+                <li><a href="#policy" class="hover:text-gray-200 transition-colors">Policy</a></li>
+                <li><a href="#team" class="hover:text-gray-200 transition-colors">Team</a></li>
+                <li><a href="#contact" class="hover:text-gray-200 transition-colors">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+
+    <section id="home" class="home">
+        <div class="home-content">
+            <h1>WELCOME TO EXCELLENT COMMERCIAL AGRO</h1>
+            <p>Your trusted partner in agricultural solutions.</p>
+            <a href="#services" class="btn-primary">Discover Our Services</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+<section id="about" class="bg-gradient-to-r from-green-50 to-green-100 py-16 relative overflow-hidden">
+    <div class="absolute inset-0 -z-10 bg-green-200 opacity-20 mix-blend-multiply"></div>
+    <div class="container mx-auto px-6 lg:px-12">
+        <div class="text-center mb-12">
+            <h2 class="text-4xl md:text-5xl font-extrabold text-green-900 mb-6 leading-tight">About Us</h2>
+            <p class="text-gray-700 text-lg md:text-xl max-w-3xl mx-auto">
+                At EXCELLENT COMMERCIAL AGRO, we are committed to transforming agriculture with innovation, sustainability, and
+                excellence. Discover our journey and values that drive us.
+            </p>
+        </div>
+        <div class="flex flex-wrap items-center justify-center gap-12">
+            <!-- Company Overview -->
+            <div class="w-full md:w-1/2 lg:w-2/5 mb-8">
+                <div class="bg-white p-10 rounded-3xl shadow-xl border border-gray-200 transition-transform transform hover:scale-105 hover:shadow-2xl">
+                    <h3 class="text-3xl font-bold text-green-800 mb-4">Company Overview</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Established in [Year], our company is dedicated to leading agricultural innovation. We offer
+                        cutting-edge solutions to enhance crop yields, optimize resources, and support farmers
+                        through every season.
+                    </p>
+                </div>
+            </div>
+            <!-- Mission, Vision, Values -->
+            <div class="w-full md:w-1/2 lg:w-3/5 mb-8">
+                <div class="bg-white p-10 rounded-3xl shadow-xl border border-gray-200 transition-transform transform hover:scale-105 hover:shadow-2xl">
+                    <div class="mb-8">
+                        <h3 class="text-3xl font-bold text-green-800 mb-4">Mission</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            Our mission is to empower farmers with advanced technology and sustainable practices,
+                            driving productivity and fostering environmental stewardship.
+                        </p>
+                    </div>
+                    <div class="mb-8">
+                        <h3 class="text-3xl font-bold text-green-800 mb-4">Vision</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            We envision becoming the global leader in agricultural innovation, pioneering progress
+                            and sustainability in farming practices for a brighter future.
+                        </p>
+                    </div>
+                    <div>
+                        <h3 class="text-3xl font-bold text-green-800 mb-4">Values</h3>
+                        <ul class="list-disc list-inside text-gray-600 space-y-2">
+                            <li><strong>Sustainability:</strong> Dedicated to eco-friendly practices and solutions.</li>
+                            <li><strong>Innovation:</strong> Embracing new technologies and methodologies.</li>
+                            <li><strong>Integrity:</strong> Conducting business with transparency and honesty.</li>
+                            <li><strong>Customer-Centric:</strong> Prioritizing the needs and success of our clients.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Services Section -->
+    <section id="services" class="bg-gradient-to-r from-green-50 to-green-100 py-16">
+        <div class="container mx-auto px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-extrabold text-green-900 mb-4">Our Services</h2>
+                <p class="text-gray-700 text-lg">Discover our diverse range of services designed to support and advance
+                    your agricultural needs.</p>
+            </div>
+            <div class="flex flex-wrap justify-center gap-8">
+                <!-- Service 1 -->
+                <div class="w-full md:w-1/3 px-4 mb-8">
+                    <div
+                        class="service-card bg-white p-8 rounded-lg shadow-lg border border-gray-200 text-center hover:shadow-xl hover:scale-105">
+                        <div class="mb-6">
+                            <i class="fas fa-seedling text-5xl text-green-700"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-green-800 mb-4">Crop Management</h3>
+                        <p class="text-gray-600">Enhance crop yields with our comprehensive management solutions,
+                            including pest control, soil health optimization, and advanced monitoring techniques.</p>
+                    </div>
+                </div>
+                <!-- Service 2 -->
+                <div class="w-full md:w-1/3 px-4 mb-8">
+                    <div
+                        class="service-card bg-white p-8 rounded-lg shadow-lg border border-gray-200 text-center hover:shadow-xl hover:scale-105">
+                        <div class="mb-6">
+                            <i class="fas fa-truck text-5xl text-green-700"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-green-800 mb-4">Logistics & Supply</h3>
+                        <p class="text-gray-600">Streamline your logistics with our efficient transportation solutions,
+                            ensuring timely delivery and effective supply chain management for your agricultural
+                            products.</p>
+                    </div>
+                </div>
+                <!-- Service 3 -->
+                <div class="w-full md:w-1/3 px-4 mb-8">
+                    <div
+                        class="service-card bg-white p-8 rounded-lg shadow-lg border border-gray-200 text-center hover:shadow-xl hover:scale-105">
+                        <div class="mb-6">
+                            <i class="fas fa-users text-5xl text-green-700"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-green-800 mb-4">Consultancy Services</h3>
+                        <p class="text-gray-600">Receive expert guidance on agricultural practices, market insights, and
+                            investment strategies to make informed decisions and foster growth.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="policy" class="bg-gradient-to-r from-green-50 to-green-100 py-16">
+        <div class="container mx-auto px-6 lg:px-12">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl md:text-5xl font-extrabold text-green-900 mb-6">අපගේ ප්‍රතිපත්තිය</h2>
+                <p class="text-gray-700 text-lg md:text-xl max-w-2xl mx-auto">
+                    අපගේ කෘෂිකර්ම ප්‍රතිපත්ති ගෝලීය මට්ටමින් හෝ සම්මන්ත්‍රණයක් මත අපගේ කෘෂිකර්ම ක්ෂේත්‍රයේ නවීන බව,
+                    අදාළ ප්‍රයෝගික උපකරණ සහ සමාජ වාසි සලසන බවට අපගේ වගකීමකි.
+                </p>
+            </div>
+            <div class="space-y-8">
+                <!-- Policy Point 1 -->
+                <div class="bg-white p-8 rounded-2xl shadow-xl border border-gray-200">
+                    <h3 class="text-2xl font-semibold text-green-800 mb-4">1. නවීන වගා ක්‍රමවේද</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        නවීන කෘෂිකර්ම තාක්ෂණයන් සහ ප්‍රතිදාන වැඩි වර්ග භාවිතය මගින් ගුණාත්මක හා සාරවත්
+                        වගාවක් සඳහා අපි වෙහෙසෙන් කටයුතු කරනවා. අපගේ තාක්ෂණික යෙදුම් මඟින් වගාකරුවන්ට
+                        කෘෂිකර්ම ක්ෂේත්‍රයේ ඉහළ ප්‍රතිලාභ ලබාදෙමින්, කෘෂිකර්ම කටයුතු කාර්යක්ෂම හා සාර්ථක ලෙස
+                        සිදු කිරීමට උදව් කරනවා.
+                    </p>
+                </div>
+                <!-- Policy Point 2 -->
+                <div class="bg-white p-8 rounded-2xl shadow-xl border border-gray-200">
+                    <h3 class="text-2xl font-semibold text-green-800 mb-4">2. පුහුණුව හා අධ්‍යාපන</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        වගාකරුවන්ට නවීන වගා ක්‍රම, වෙළඳපොල විවරණ හා ප්‍රායෝගික පුහුණුව ලබාදීම අපගේ
+                        ප්‍රාණවත් ප්‍රතිපත්තියකි. මෙම පුහුණුව මඟින් වගාකරුවන්ට වගාව පිළිබඳ සවිස්තරය සහ
+                        නවතම තාක්ෂණයන් පිළිබඳ අවබෝධයක් ලබා දී, ඔවුන්ගේ කුසලතා වැඩි දියුණු කිරීමට
+                        උපකාරී වේ.
+                    </p>
+                </div>
+                <!-- Policy Point 3 -->
+                <div class="bg-white p-8 rounded-2xl shadow-xl border border-gray-200">
+                    <h3 class="text-2xl font-semibold text-green-800 mb-4">3. වෙළඳපොල උපදෙස්</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        ස්කොච් බොනට් නයි මිරිස් සඳහා ජාත්‍යන්තර සහ දේශීය වෙළඳපොල අවශ්‍යතා පිළිබඳ
+                        ප්‍රවීණ උපදෙස් ලබාදීම අපගේ ප්‍රධාන අරමුණකි. අපගේ වෙළඳපොල විශ්ලේෂණ සහ උපදෙස්
+                        මඟින් වගාකරුවන්ට සාර්ථකව වෙළඳපොල වෙත පිවිසෙන්න සහ ඔවුන්ගේ නිෂ්පාදන කුලී මට්ටම
+                        වැඩි දියුණු කිරීමට සහය වන්නෙමු.
+                    </p>
+                </div>
+                <!-- Policy Point 4 -->
+                <div class="bg-white p-8 rounded-2xl shadow-xl border border-gray-200">
+                    <h3 class="text-2xl font-semibold text-green-800 mb-4">4. පාරිසරික සහ සමාජ වාසි</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        කෘෂිකර්ම ව්‍යාපාරවලින් වගාකරුවන්ට වන වාසි සැලසීම මෙන්ම, පාරිසරික
+                        හා සමාජ වාසි සලසා ගැනීමට අපගේ ප‍්‍රතිපත්තිය යොදාගනිමු. අපගේ කෘෂිකර්ම ක්‍රමවේද
+                        කෘෂි ව්‍යාපාර වල පාරිසරික පරිපාලන සහ සමාජ උතුරුකල් වාසියෙන් භාවිතා කරනවා.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+<section id="blog" class="bg-gradient-to-r from-green-50 to-green-100 py-16">
+    <div class="container mx-auto px-6 lg:px-12">
+        <div class="text-center mb-12">
+            <h2 class="text-4xl md:text-5xl font-bold text-green-900 mb-4">Discover Our Latest Insights</h2>
+            <p class="text-gray-700 text-lg md:text-xl max-w-3xl mx-auto">
+                Dive into our blog to stay informed on the latest trends, tips, and stories from the world of
+                agriculture. Our posts are designed to provide valuable knowledge and inspire innovation in your
+                farming practices.
+            </p>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+            <!-- Blog Post 1 -->
+            <div class="bg-white rounded-3xl shadow-lg overflow-hidden transition-transform transform hover:scale-105">
+                <img src="Blogs/img/27.jpg" alt="Blog Post 1" class="w-full h-56 object-cover mb-6">
+                <div class="p-6">
+                    <h3 class="text-2xl font-semibold text-green-800 mb-4">පිටි මකුණු හානිය .🦟</h3>
+                    <p class="text-gray-600 mb-4">
+                        අපගේ වගාවේදි මුහුණදීමට සිදුවන ගැටලු අතරින් ප්‍රධාන තැනක් ගන්නේ කෘමි හානියයි. මෙය ශාකයේ
+                        වර්ධනයට මෙන්ම ඵල වල ගුණාත්මක බවටත් බලපාන අතර, පහත සඳහන් මඟුල්වලින් පිටි මකුණු හානිය
+                        පාලනය කළ හැකිය.
+                    </p>
+                    <a href="/Blogs/පිටි-මකුණු-හානිය.html" class="text-green-700 hover:text-green-900 font-medium underline" target="_blank">Read More</a>
+                </div>
+            </div>
+            <!-- Blog Post 2 -->
+            <div class="bg-white rounded-3xl shadow-lg overflow-hidden transition-transform transform hover:scale-105">
+                <img src="https://via.placeholder.com/600x400" alt="Blog Post 2" class="w-full h-56 object-cover mb-6">
+                <div class="p-6">
+                    <h3 class="text-2xl font-semibold text-green-800 mb-4">Top 10 Tips for Maximizing Crop Yields</h3>
+                    <p class="text-gray-600 mb-4">
+                        Discover our top 10 expert tips for boosting crop yields. From soil health to pest management, these actionable strategies will enhance your farming productivity and efficiency.
+                    </p>
+                    <a href="#" class="text-green-700 hover:text-green-900 font-medium underline">Read More</a>
+                </div>
+            </div>
+            <!-- Blog Post 3 -->
+            <div class="bg-white rounded-3xl shadow-lg overflow-hidden transition-transform transform hover:scale-105">
+                <img src="https://via.placeholder.com/600x400" alt="Blog Post 3" class="w-full h-56 object-cover mb-6">
+                <div class="p-6">
+                    <h3 class="text-2xl font-semibold text-green-800 mb-4">How Technology is Transforming Agriculture</h3>
+                    <p class="text-gray-600 mb-4">
+                        Learn how technological advancements are transforming the agricultural sector. From precision farming to smart irrigation, discover how innovation is shaping the future of farming.
+                    </p>
+                    <a href="#" class="text-green-700 hover:text-green-900 font-medium underline">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+            <section id="team" class="bg-gradient-to-r from-gray-50 to-gray-100 py-12">
+                <div class="container mx-auto px-6">
+                    <!-- Section Header -->
+                    <div class="text-center mb-12">
+                        <div class="text-purple-600 text-sm font-bold uppercase tracking-wide">Our Team</div>
+                        <h2 class="text-gray-900 text-3xl md:text-4xl font-extrabold">Meet the People Behind Our Success</h2>
+                        <p class="text-gray-600 md:text-lg mt-2">We're a 100% remote team spread across the globe. Join us on our journey!</p>
+                    </div>
+        
+                    <!-- Team Cards -->
+                    <div class="flex items-center justify-center flex-wrap gap-8">
+                        <!-- Team Member Card -->
+                        <div class="card flex items-center justify-center flex-col gap-4 p-6 w-full sm:w-80 h-full bg-white border border-gray-200 rounded-xl shadow-md hover:shadow-lg transition-transform duration-300 ease-in-out">
+                            <img src="assets/img/team/WhatsApp Image 2024-08-08 at 22.42.03_7a9c3e27.jpg" class="w-32 h-32 rounded-full object-cover" alt="Owner Bosa">
+                            <div class="text-gray-900 text-xl font-semibold">Owner Bosa</div>
+                            <div class="text-purple-600 text-sm font-medium">Founder & CEO</div>
+                            <div class="flex items-center justify-center gap-4 mt-2">
+                                <a href="#" class="text-gray-600 hover:text-purple-600 transition-colors duration-200">
+                                    <i class="fa-brands fa-twitter fa-lg"></i>
+                                </a>
+                                <a href="#" class="text-gray-600 hover:text-purple-600 transition-colors duration-200">
+                                    <i class="fa-brands fa-linkedin fa-lg"></i>
+                                </a>
+                                <a href="#" class="text-gray-600 hover:text-purple-600 transition-colors duration-200">
+                                    <i class="fa-brands fa-dribbble fa-lg"></i>
+                                </a>
+                            </div>
+                        </div>
+        
+                        <div class="card flex items-center justify-center flex-col gap-4 p-6 w-full sm:w-80 h-full bg-white border border-gray-200 rounded-xl shadow-md hover:shadow-lg transition-transform duration-300 ease-in-out">
+                            <img src="assets/img/team/team1.jpg" class="w-32 h-32 rounded-full object-cover" alt="Deweni Bosa">
+                            <div class="text-gray-900 text-xl font-semibold">Deweni Bosa</div>
+                            <div class="text-purple-600 text-sm font-medium">CEO</div>
+                            <div class="flex items-center justify-center gap-4 mt-2">
+                                <a href="#" class="text-gray-600 hover:text-purple-600 transition-colors duration-200">
+                                    <i class="fa-brands fa-twitter fa-lg"></i>
+                                </a>
+                                <a href="#" class="text-gray-600 hover:text-purple-600 transition-colors duration-200">
+                                    <i class="fa-brands fa-linkedin fa-lg"></i>
+                                </a>
+                                <a href="#" class="text-gray-600 hover:text-purple-600 transition-colors duration-200">
+                                    <i class="fa-brands fa-dribbble fa-lg"></i>
+                                </a>
+                            </div>
+                        </div>
+        
+                        <!-- Add more team member cards as needed -->
+                    </div>
+                </div>
+            </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-gradient-to-r from-green-100 to-green-200 py-16">
+        <div class="container mx-auto px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-extrabold text-green-800 mb-4">Contact Us</h2>
+                <p class="text-gray-700 text-lg">We’re here to assist you with any inquiries or feedback. Reach out to
+                    us and we’ll get back to you as soon as possible.</p>
+            </div>
+            <div class="flex flex-wrap justify-center md:justify-between">
+                <!-- Contact Information -->
+                <div class="w-full md:w-1/3 mb-12 md:mb-0">
+                    <h3 class="text-2xl font-semibold text-green-800 mb-6">Our Office</h3>
+                    <p class="text-gray-600 mb-6">
+                        123 Greenfield Road,<br>
+                        Agriculture City, AG 45678<br>
+                        <a href="sunandak982@gmail.com"
+                            class="text-green-600 hover:underline">sunandak982@gmail.com</a><br>
+                        <a href="tel:+94765510986" class="text-green-600 hover:underline">+94765510986</a><br>
+                        <a href="tel:+94702180200" class="text-green-600 hover:underline">+94702180200</a>
+                    </p>
+                    <div class="w-full h-64 rounded-lg overflow-hidden shadow-lg">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3938.9730669346795!2d81.53673201382148!3d6.92707943012347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae44b214b4fc743%3A0x5a9d7f5450137d29!2sMonaragala!5e0!3m2!1sen!2slk!4v1634519533931!5m2!1sen!2slk"
+                            style="border:3; width: 100%; height: 100%;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="w-full md:w-2/3">
+                    <h3 class="text-2xl font-semibold text-green-800 mb-6">Send Us a Message</h3>
+                    <form action="#" method="POST" class="bg-white p-8 rounded-lg shadow-lg border border-gray-200">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                            <div>
+                                <label for="name" class="block text-gray-700 text-sm font-medium mb-2">Name</label>
+                                <input type="text" id="name" name="name" placeholder="Your Name" required
+                                    class="w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500">
+                            </div>
+                            <div>
+                                <label for="email" class="block text-gray-700 text-sm font-medium mb-2">Email</label>
+                                <input type="email" id="email" name="email" placeholder="Your Email" required
+                                    class="w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500">
+                            </div>
+                        </div>
+                        <div class="mb-6">
+                            <label for="message" class="block text-gray-700 text-sm font-medium mb-2">Message</label>
+                            <textarea id="message" name="message" rows="6" placeholder="Enter your Message" required
+                                class="w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500"></textarea>
+                        </div>
+                        <button type="submit"
+                            class="bg-green-800 text-white px-6 py-3 rounded-md shadow-md hover:bg-green-700 transition">Send
+                            Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+  
+    <footer class="bg-green-800 text-white py-12">
+        <div class="container mx-auto px-6 lg:px-8">
+            <div class="flex flex-wrap justify-between">
+                <!-- Footer Logo and Description -->
+                <div class="w-full md:w-1/4 mb-8 md:mb-0">
+                    <h1 class="text-3xl font-bold mb-3 text-yellow-300">EXCELLENT COMMERCIAL AGRO</h1>
+                    <p class="text-gray-200">Committed to sustainable farming practices and quality produce. Partnering
+                        with farmers for a greener future.</p>
+                </div>
+
+                <!-- Footer Links -->
+                <div class="w-full md:w-1/2 flex flex-wrap justify-between mb-8 md:mb-0">
+                    <div class="w-full md:w-1/4">
+                        <h3 class="text-lg font-semibold mb-4 text-yellow-300">Company</h3>
+                        <ul class="space-y-2">
+                            <li><a href="#" class="hover:text-yellow-200 transition">About Us</a></li>
+                            <li><a href="#" class="hover:text-yellow-200 transition">Our Mission</a></li>
+                            <li><a href="#" class="hover:text-yellow-200 transition">Sustainability</a></li>
+                            <li><a href="#" class="hover:text-yellow-200 transition">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div class="w-full md:w-1/4">
+                        <h3 class="text-lg font-semibold mb-4 text-yellow-300">Resources</h3>
+                        <ul class="space-y-2">
+                            <li><a href="#" class="hover:text-yellow-200 transition">Blog</a></li>
+                            <li><a href="#" class="hover:text-yellow-200 transition">FAQs</a></li>
+                            <li><a href="#" class="hover:text-yellow-200 transition">Product Guides</a></li>
+                            <li><a href="#contact" class="hover:text-yellow-200 transition">Contact Support</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Social Media Links -->
+                <div class="w-full md:w-1/4 flex items-center justify-center md:justify-end">
+                    <a href="#" class="text-white hover:text-yellow-300 mx-3 text-2xl transition"><i
+                            class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-white hover:text-yellow-300 mx-3 text-2xl transition"><i
+                            class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-white hover:text-yellow-300 mx-3 text-2xl transition"><i
+                            class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-white hover:text-yellow-300 mx-3 text-2xl transition"><i
+                            class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="bg-green-700 py-4 text-center">
+            <p class="text-gray-300">&copy; 2024 EXCELLENT COMMERCIAL AGRO. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/scripts.js"></script>
+    <script src="assets/js/header.js"></script>
+    <script src="assets/js/email.js"></script>
+    <script src="assets/js/tawkto.js"></script>
+    <script src="assets/js/loading.js"></script>
+    <script src="assets/js/aichat.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gpt4js/dist/gpt4js.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+
+</html>
